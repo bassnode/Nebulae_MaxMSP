@@ -2,11 +2,17 @@
 
 <CsoundSynthesizer>
 <CsInstruments>
-sr      =  44100
-ksmps   =  8
-nchnls  =  2
+;sr      =  44100
+;ksmps   =  8
+;nchnls  =  2
+;
+;0dbfs = 1
 
-0dbfs = 1
+sr	=	22050	
+ksmps	=	32
+nchnls			=		1
+0dbfs				=		1
+
 
 alwayson 1
 
@@ -33,11 +39,11 @@ instr 1
 ;  	kNum			  init 0
 
 
-;  	kGdxAMP 		chnget "kGdxAMP"
+  	kGdxAMP 		chnget "amp"
   	kGdxDist 	chnget "Dist"
 ;  	kGdxDurDist 	chnget "DurDist"  
-  	kGdxAD 			chnget "AdPar"
-  	kGdxDD 			chnget "DdPar"
+  	kGdxAD 			chnget "AmpPar"
+  	kGdxDD 			chnget "DurPar"
   	kGdxMf 			chnget "MinFreq"
   	kGdxMMf			chnget "MaxFreq"
   	kGdxAS 			chnget "AmpScl"
@@ -46,10 +52,10 @@ instr 1
 
 
 
-  aGdx	gendy .3, kGdxDist, kGdxDist, kGdxAD, kGdxDD, kGdxMf, kGdxMMf, \
+  aGdx	gendy kGdxAMP, kGdxDist, kGdxDist, kGdxAD, kGdxDD, kGdxMf, kGdxMMf, \
             	kGdxAS, kGdxDS, 20, kNum
 
-	aLP			butterlp 			aGdx, 1750
+	aLP			butterlp 			aGdx, 3750
 	aOut 		balance 				aLP, aGdx
   outs aLP, aLP
   endin
