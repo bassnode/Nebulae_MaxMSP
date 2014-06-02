@@ -1,0 +1,285 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Nebulae-GENDYN-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"amppar" : [ 0.385609 ],
+					"ampscl" : [ 0.632159 ],
+					"dist" : [ 2 ],
+					"durpar" : [ 0.794777 ],
+					"durscl" : [ 0.034144 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 205.464386 ],
+					"minfreq" : [ 514.753784 ],
+					"num" : [ 8.809891 ],
+					"live.toggle[7]" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"amppar" : [ 0.805269 ],
+					"ampscl" : [ 0.275448 ],
+					"dist" : [ 5 ],
+					"durpar" : [ 0.14955 ],
+					"durscl" : [ 0.878709 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 680.939087 ],
+					"minfreq" : [ 140.836761 ],
+					"num" : [ 23.586374 ],
+					"live.toggle[7]" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"amppar" : [ 0.222991 ],
+					"ampscl" : [ 0.805269 ],
+					"dist" : [ 5 ],
+					"durpar" : [ 0.994116 ],
+					"durscl" : [ 0.133813 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 140.836761 ],
+					"minfreq" : [ 136.220505 ],
+					"num" : [ 10.660848 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"amppar" : [ 0.77904 ],
+					"ampscl" : [ 0.621668 ],
+					"dist" : [ 6 ],
+					"durpar" : [ 0.102339 ],
+					"durscl" : [ 0.432821 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 704.020386 ],
+					"minfreq" : [ 122.371727 ],
+					"num" : [ 24.929285 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"amppar" : [ 0.77904 ],
+					"ampscl" : [ 0.810515 ],
+					"dist" : [ 2 ],
+					"durpar" : [ 0.102339 ],
+					"durscl" : [ 0.202008 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 103.906693 ],
+					"minfreq" : [ 182.383102 ],
+					"num" : [ 24.929285 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"amppar" : [ 0.118076 ],
+					"ampscl" : [ 0.794777 ],
+					"dist" : [ 2 ],
+					"durpar" : [ 0.091847 ],
+					"durscl" : [ 0.212499 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 103.906693 ],
+					"minfreq" : [ 182.383102 ],
+					"num" : [ 15.528903 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"amppar" : [ 0.852481 ],
+					"ampscl" : [ 0.821006 ],
+					"dist" : [ 0 ],
+					"durpar" : [ 0.091847 ],
+					"durscl" : [ 0.081356 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 727.101685 ],
+					"minfreq" : [ 860.973206 ],
+					"num" : [ 1.931921 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"amppar" : [ 0.773794 ],
+					"ampscl" : [ 0.086601 ],
+					"dist" : [ 1 ],
+					"durpar" : [ 0.091847 ],
+					"durscl" : [ 0.049881 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 727.101685 ],
+					"minfreq" : [ 810.194336 ],
+					"num" : [ 30.13307 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"amppar" : [ 0.773794 ],
+					"ampscl" : [ 0.086601 ],
+					"dist" : [ 1 ],
+					"durpar" : [ 0.091847 ],
+					"durscl" : [ 0.049881 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 113.139206 ],
+					"minfreq" : [ 810.194336 ],
+					"num" : [ 30.13307 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"amppar" : [ 0.24922 ],
+					"ampscl" : [ 0.506261 ],
+					"dist" : [ 2 ],
+					"durpar" : [ 0.999362 ],
+					"durscl" : [ 0.600685 ],
+					"gain" : [ 121 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 680.939087 ],
+					"minfreq" : [ 94.674171 ],
+					"num" : [ 27.782974 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"data" : 				{
+					"amppar" : [ 0.060373 ],
+					"ampscl" : [ 0.773794 ],
+					"dist" : [ 5 ],
+					"durpar" : [ 0.899692 ],
+					"durscl" : [ 0.847873 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 177.76683 ],
+					"minfreq" : [ 90.057907 ],
+					"num" : [ 14.018127 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+,
+			"12" : 			{
+				"id" : 12,
+				"data" : 				{
+					"amppar" : [ 0.784286 ],
+					"ampscl" : [ 1.0 ],
+					"dist" : [ 5 ],
+					"durpar" : [ 0.133813 ],
+					"durscl" : [ 0.380363 ],
+					"gain" : [ 122 ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 1.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"live.toggle[4]" : [ 0.0 ],
+					"live.toggle[5]" : [ 0.0 ],
+					"live.toggle[6]" : [ 0.0 ],
+					"maxfreq" : [ 108.522949 ],
+					"minfreq" : [ 551.683838 ],
+					"num" : [ 7.135705 ],
+					"live.toggle[7]" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
