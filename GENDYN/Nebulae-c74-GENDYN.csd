@@ -27,8 +27,8 @@ giRecamanWave3 ftgen 4, 0, 8192, 9, 0.100, 0.300, 0.600, 0.200, 0.700, 1.300, 2.
 instr 1
 
 
-;  	kGdxAMP 		init 0
-;  	kGdxAmpDist init 0
+  	kGdxAMP 		init .5
+;  	kGdxDist init 0
 ;  	kGdxDurDist init 0
 ;  	kGdxAD 			init 0
 ;  	kGdxDD 			init 0
@@ -37,30 +37,26 @@ instr 1
 ;  	kGdxAS 			init 0
 ;  	kGdxDS 			init 0
 ;  	kNum			  init 0
+;
 
+  	kGdxAMP 		chnget 	"amp"
+  	kGdxDist 		chnget 	"Dist" 
+  	kGdxAD 		chnget 	"AmpPar"
+  	kGdxDD 		chnget 	"DurPar"
+  	kGdxMf 		chnget 	"MinFreq"
+  	kGdxMMf		chnget 	"MaxFreq"
+  	kGdxAS 		chnget 	"AmpScl"
+  	kGdxDS 		chnget 	"DurScl"
+  	kNum			chnget 	"Num"
 
-  	kGdxAMP 		chnget "amp"
-  	kGdxDist 	chnget "Dist"
-;  	kGdxDurDist 	chnget "DurDist"  
-  	kGdxAD 			chnget "AmpPar"
-  	kGdxDD 			chnget "DurPar"
-  	kGdxMf 			chnget "MinFreq"
-  	kGdxMMf			chnget "MaxFreq"
-  	kGdxAS 			chnget "AmpScl"
-  	kGdxDS 			chnget "DurScl"
-  	kNum				chnget "Num"
+  	aGdx			gendy 	kGdxAMP, kGdxDist, kGdxDist, kGdxAD, kGdxDD, kGdxMf, kGdxMMf, \
+            					kGdxAS, kGdxDS, 20, kNum
 
-
-
-  aGdx	gendy kGdxAMP, kGdxDist, kGdxDist, kGdxAD, kGdxDD, kGdxMf, kGdxMMf, \
-            	kGdxAS, kGdxDS, 20, kNum
-
-	aLP			butterlp 			aGdx, 3750
-	aOut 		balance 				aLP, aGdx
-  outs aLP, aLP
-  endin
-
-
+	aLP			butterlp 	aGdx, 3750
+	aOut 			balance 	aLP, aGdx
+  				outs	 	aLP, aLP	
+ 
+endin
 
 </CsInstruments>
 <CsScore>
